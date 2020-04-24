@@ -3,7 +3,7 @@
 
 This is the github repo for IJCAI 2020 paper "TransOMCS: From Linguistic Graphs to Commonsense Knowledge".
 
-If you only want to use the resulted KG TransOMCS, you are welcome to download if from [TransOMCS](I am the url).
+If you only want to use the resulted KG TransOMCS, you are welcome to download if from [TransOMCS](https://hkustconnect-my.sharepoint.com/:t:/g/personal/hzhangal_connect_ust_hk/Edq87bbgMXFInEJFbkNXq2kBwuC9jZM5ojlL5uaY8Ytu-g?e=zVoymh).
 
 If you want to repeat the process of creating TransOMCS with OMCS and ASER, please follow the following steps.
 
