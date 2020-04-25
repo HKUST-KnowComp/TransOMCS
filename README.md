@@ -3,7 +3,7 @@
 
 This is the github repo for IJCAI 2020 paper "TransOMCS: From Linguistic Graphs to Commonsense Knowledge".
 
-If you only want to use TransOMCS, you can download if from [TransOMCS](https://hkustconnect-my.sharepoint.com/:t:/g/personal/hzhangal_connect_ust_hk/Edq87bbgMXFInEJFbkNXq2kBwuC9jZM5ojlL5uaY8Ytu-g?e=zVoymh).
+If you only want to use TransOMCS, you can **download** it from [TransOMCS](https://hkustconnect-my.sharepoint.com/:t:/g/personal/hzhangal_connect_ust_hk/Edq87bbgMXFInEJFbkNXq2kBwuC9jZM5ojlL5uaY8Ytu-g?e=zVoymh).
 
 If you want to repeat the process of creating TransOMCS with OMCS and ASER, please follow the following steps.
 
@@ -23,11 +23,11 @@ Python 3.6, Pytorch 1.0
 
 (1) Unzip the downloaded matched OMCS tuple and ASER graphs in the same folder.
 
-(2) Extract patterns: ```python Pattern_Extraction.py```.
+(2) Extract patterns: `python Pattern_Extraction.py`.
 
-(3) Apply the extracted patterns to extract knowledge from ASER (You need to modify the location of your .db file): ```python Knowledge_Extraction.py```.
+(3) Apply the extracted patterns to extract knowledge from ASER (You need to modify the location of your .db file): `python Knowledge_Extraction.py`.
 
-(4) Train a ranking model to rank extracted knowledge: ```python Train_and_Predict.py```.
+(4) Train a ranking model to rank extracted knowledge: `python Train_and_Predict.py`.
 
 
 ## Application of TransOMCS
