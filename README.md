@@ -38,9 +38,9 @@ Here are the statistics and examples of different commonsense relations.
 | DefinedAs | 36 | 37.5% | (door, DefinedAs, entrance) |
 | LocatedNear | 19 | 85.7% | (shoe, LocatedNear, foot) |
 
-The reasonable ratio is annotated on the random sample over all the extracted knowledge (no knowledge ranking). 
+The reasonable ratio scores are annotated on the random sample over all the extracted knowledge (no knowledge ranking). 
 
-In general, TransOMCS is noisier than the original OMCS because they are extracted from raw data with patterns. However, as shown in the paper, a careful use of the data in the downstream applications helps.
+In general, TransOMCS is noisier than the original OMCS because TransOMCS is extracted from raw data with patterns. However, as shown in the paper, a careful use of the data in the downstream applications helps.
 
 
 ## Construction of TransOMCS
