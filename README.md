@@ -15,7 +15,7 @@ Without any further filtering, TransOMCS contains 20 commonsense relations, 101 
 
 Here are the statistics and examples of different commonsense relations.
 
-| Relation | Number of triplets | Reasonable Ratio | Example|
+| Relation Name | Number of triplets | Reasonable Ratio | Example|
 | :---: | :---: | :---: | :---:|
 | CapableOf | 6,145,829 | 58.4% | (government, CapableOf, protect) |
 | UsedFor | 3,475,254 | 50.8% | (kitchen, UsedFor, eat in) |
