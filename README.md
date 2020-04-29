@@ -66,7 +66,9 @@ Please use the code in [reading comprehension model](https://github.com/intfloat
 #### Dialog Generation
 Please use the code in [dialog model](https://github.com/HKUST-KnowComp/ASER/tree/master/experiment/Dialogue) and replace the external knowledge with different subsets of TransOMCS based on your need.
 
+## TODO
 
+1. Filter the current TransOMCS to further improve the quality (e.g., merge pronouns like 'he' and 'she' to human).
 
 ## Others
 If you have any other questions about this repo, you are welcome to open an issue or send me an [email](mailto:hzhangal@cse.ust.hk), I will respond to that as soon as possible.
