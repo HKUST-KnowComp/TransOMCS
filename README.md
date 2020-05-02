@@ -70,5 +70,14 @@ Please use the code in [dialog model](https://github.com/HKUST-KnowComp/ASER/tre
 
 1. Filter the current TransOMCS to further improve the quality (e.g., merge pronouns like 'he' and 'she' to human).
 
+## Citation
+
+    @inproceedings{zhang2020TransOMCS,
+      author    = {Hongming Zhang and Daniel Khashabi and Yangqiu Song and Dan Roth},
+      title     = {TransOMCS: From Linguistic Graphs to Commonsense Knowledge},
+      booktitle = {Proceedings of International Joint Conference on Artificial Intelligence (IJCAI) 2020},
+      year      = {2020}
+    }
+
 ## Others
 If you have any other questions about this repo, you are welcome to open an issue or send me an [email](mailto:hzhangal@cse.ust.hk), I will respond to that as soon as possible.
