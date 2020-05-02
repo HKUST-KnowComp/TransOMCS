@@ -48,7 +48,7 @@ In general, TransOMCS is noisier than the original OMCS because TransOMCS is ext
 
 If you want to repeat the process of creating TransOMCS with OMCS and ASER, please follow the following steps.
 
-1. Download the core version of ASER from [ASER Homepage](https://hkust-knowcomp.github.io/ASER/) and install ASER 0.1 following [the uideline](https://github.com/HKUST-KnowComp/ASER/blob/master/ASER.ipynb).
+1. Download the core version of ASER from [ASER Homepage](https://hkust-knowcomp.github.io/ASER/) and install ASER 0.1 following [the guideline](https://github.com/HKUST-KnowComp/ASER/blob/master/ASER.ipynb).
 2. Download the selected Commonsense OMCS Tuples and associated ASER graphs from [OMCS and ASER matches](https://hkustconnect-my.sharepoint.com/:u:/g/personal/hzhangal_connect_ust_hk/EfFZFamzsmdKozyrU0-TtXsBDbStkt_FmPyeFM2kT-K9FQ?e=noAb7u).
 3. Download the randomly split knowledge ranking dataset from [Ranking Dataset](https://hkustconnect-my.sharepoint.com/:u:/g/personal/hzhangal_connect_ust_hk/Efc7NeRYSVpHqcGuflDU3uoBRPaks4Mz1kG_R9OUwviPLw?e=oJB3yA).
 4. Unzip the downloaded matched OMCS tuple and ASER graphs in the same folder.
