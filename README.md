@@ -41,8 +41,9 @@ Here are the statistics and examples of different commonsense relations.
 
 The reasonable ratio scores are annotated on the random sample over all of the extracted knowledge (no knowledge ranking). 
 
-In general, TransOMCS is noisier than the original OMCS because TransOMCS is extracted from raw data with patterns. However, as shown in the paper, a careful use of the data in the downstream applications helps.
-
+In general, TransOMCS is still quite noisy because TransOMCS is extracted from raw data with patterns. 
+However, as shown in the paper, a careful use of the data in the downstream applications helps.
+We will keep working on improving its quality.
 
 ## Construction of TransOMCS
 
