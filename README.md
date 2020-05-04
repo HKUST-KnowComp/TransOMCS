@@ -1,7 +1,7 @@
 # TransOMCS
 
 
-This is the github repo for IJCAI 2020 paper "TransOMCS: From Linguistic Graphs to Commonsense Knowledge".
+This is the github repo for IJCAI 2020 paper ["TransOMCS: From Linguistic Graphs to Commonsense Knowledge"](https://arxiv.org/abs/2005.00206).
 
 ## Dependency
 
