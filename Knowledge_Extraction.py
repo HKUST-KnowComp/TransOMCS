@@ -17,7 +17,7 @@ for tmp_key, tmp_eventuality in tqdm(kg_conn.event_cache.items()):
     tmp['words'] = tmp_eventuality['words']
     tmp['frequency'] = tmp_eventuality['frequency']
     selected_eventuality_kg.append(tmp)
-    eventuality_id_to_graph[tmp['id']] = eventuality_to_graph(tmp_eventuality)
+    eventuality_id_to_graph[tmp['id']] = eventuality_to_graph(tmp)
 
 print('We are collecting edges from ASER...')
 
@@ -39,7 +39,7 @@ for tmp_key, tmp_edge in tqdm(kg_conn.relation_cache.items()):
             tmp['frequency'] = tmp_edge[tmp_connective]
             tmp['connective'] = tmp_connective
             selected_edge_kg.append(tmp)
-    edge_id_to_graph[tmp['id']] = edge_to_graph(tmp_edge)
+    edge_id_to_graph[tmp['id']] = edge_to_graph(tmp)
 
 number_of_worker = 35
 print('Start to collect knowledge from eventualities')
