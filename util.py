@@ -1,7 +1,4 @@
-try:
-    from aser.database.db_API import KG_Connection
-except ModuleNotFoundError:
-    pass
+from aser.database.db_API import KG_Connection
 import time
 from tqdm import tqdm
 # import aser

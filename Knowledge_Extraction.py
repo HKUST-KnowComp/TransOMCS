@@ -1,10 +1,10 @@
 from util import *
 
-KG_path = 'YOUR KG PATH (the .db file)'
+KG_path = 'KG_v0.1.0.db'
 
 st = time.time()
 kg_conn = KG_Connection(db_path=KG_path, mode='memory')
-print('Finished in {:.2f}'.format(time.time() - st))
+print('Finished in {:.2f} seconds'.format(time.time() - st))
 
 print('We are collecting eventualities from ASER...')
 selected_eventuality_kg = list()
