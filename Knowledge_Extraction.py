@@ -34,6 +34,7 @@ for tmp_key, tmp_edge in tqdm(kg_conn.relation_cache.items()):
     tmp['event_2_verbs'] = event_2['verbs']
     tmp['event_2_words'] = event_2['words']
     tmp['frequency'] = tmp_edge['Co_Occurrence']
+    tmp['connective'] = 'Co_Occurrence'
     for tmp_connective in Connectives:
         if tmp_edge[tmp_connective] > 0:
             tmp['frequency'] = tmp_edge[tmp_connective]
