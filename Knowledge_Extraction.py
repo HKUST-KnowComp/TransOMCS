@@ -9,7 +9,12 @@ print('Finished in {:.2f} seconds'.format(time.time() - st))
 print('We are collecting eventualities from ASER...')
 selected_eventuality_kg = list()
 eventuality_id_to_graph = dict()
-for tmp_key, tmp_eventuality in tqdm(kg_conn.event_cache.items()[:1000]):
+
+counter = 0
+for tmp_key, tmp_eventuality in tqdm(kg_conn.event_cache.items()):
+    counter += 1
+    if counter > 1000:
+        break
     tmp = dict()
     tmp['type'] = 'eventuality'
     tmp['id'] = tmp_eventuality['_id']
@@ -23,7 +28,11 @@ print('We are collecting edges from ASER...')
 
 selected_edge_kg = list()
 edge_id_to_graph = dict()
-for tmp_key, tmp_edge in tqdm(kg_conn.relation_cache.items()[:1000]):
+counter = 0
+for tmp_key, tmp_edge in tqdm(kg_conn.relation_cache.items()):
+    counter += 1
+    if counter > 1000:
+        break
     tmp = dict()
     event_1 = kg_conn.event_cache[tmp_edge['event1_id']]
     event_2 = kg_conn.event_cache[tmp_edge['event2_id']]
