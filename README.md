@@ -10,7 +10,7 @@ Python 3.6, Pytorch 1.0
 
 ## Introduction of TransOMCS
 
-If you only want to use TransOMCS, you can **download** it from [TransOMCS](https://hkustconnect-my.sharepoint.com/:u:/g/personal/hzhangal_connect_ust_hk/EVeNd_qvealEiTi7gs0Xu6sBbPIZI5ncD7Z1MBMdOz5CXw?e=E2Rtn0).
+If you only want to use TransOMCS, you can **download** it from [TransOMCS](https://hkustconnect-my.sharepoint.com/:u:/g/personal/hzhangal_connect_ust_hk/EVeNd_qvealEiTi7gs0Xu6sBbPIZI5ncD7Z1MBMdOz5CXw?e=VWCAbg).
 
 Without any further filtering, TransOMCS contains 20 commonsense relations, 101 thousand unique words, and 18.48 million triplets.
 
